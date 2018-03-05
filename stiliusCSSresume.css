@@ -1,0 +1,325 @@
+@import "http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css";
+/*kodas padarytassubscribe lentelei*/
+
+.box1
+{
+    background: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 85%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    border-radius: 12px;
+    overflow: hidden;
+    color: navajowhite;
+}
+
+.box1 span
+{
+   font-size: 40px;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+}
+.box1 h2
+{
+    text-transform: uppercase;
+    text-align: center;
+    margin: 10px 0;
+}
+.box1 p
+{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+}
+.tbox
+{
+    width: 100%;
+    height: 20px;
+    border-radius: 3px;
+    overflow: hidden;
+    background: whitesmoke;
+}
+.tbox a
+{
+    float: right;
+    width: 60px;
+    text-align:center;
+   color: white;
+    background: blue;
+    transition: 0.4s all;
+}
+.tbox input
+{
+    border: none;
+    margin: 0 10px;
+    width: 200px;
+    background: none;
+    color: black;
+    font-size: 10px;
+    outline: none;
+
+}
+.tbox a:hover
+{
+  opacity: 0.8;
+}
+
+
+/*cia yra mano skills sekcijos kodas*/
+.bckimg {
+    margin: 0;
+    padding: 0;
+    background: url("img/skillsimage.jpg") no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+}
+.skills
+{
+    width: 300px;
+    border-radius: 5px;
+    position: absolute;
+    top: 55%;
+    left: 15%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.4);
+    color: navajowhite;
+    padding: 20px;
+}
+.skills div
+{
+    width: 100%;
+    background: #607b8d;
+    height: 24px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+
+}
+.html-bar::before
+{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 24px;
+    left: 0;
+    background: #2ecc71;
+}
+.c-bar::before
+{
+    content: '';
+    position: absolute;
+    width: 35%;
+    height: 24px;
+    left: 0;
+    background: #2ecc71;
+}
+.css-bar::before
+{
+    content: '';
+    position: absolute;
+    width: 30%;
+    height: 24px;
+    left: 0;
+    background: #2ecc71;
+}
+.java-bar::before
+{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 24px;
+    left: 0;
+    background:#d63031;
+}
+.javascript-bar:before
+{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 24px;
+    left: 0;
+    background:#e74c3c;
+}
+.mysql-bar::before
+{
+    content: '';
+    position: absolute;
+    width: 25%;
+    height: 24px;
+    left: 0;
+    background:#ffeaa7 ;
+}
+/*pabaiga skills tabo*/
+
+
+
+
+
+
+
+
+body
+{
+    margin: 0;
+    padding: 0;
+    background: url("img/bckphoto1.jpeg") no-repeat ;
+    background-size: cover;
+}
+.box
+{
+ width: 450px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 50px;
+    text-align: center;
+    margin: auto;
+    margin-top: 55px;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+
+}
+.box-img
+{
+ border-radius: 50%;
+    width: 140px;
+    height: 140px;
+}
+/*home page animacija*/
+.box h1
+{
+    color: white;
+ font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+margin-bottom: -10px;
+    position: relative;
+   animation: text 3s 1;
+
+}
+
+@keyframes text
+{
+    0%
+    {
+        color: rgba(0,0,0, 0.1);
+
+
+    }
+    30%
+    {
+
+        letter-spacing: 3px;
+
+    }
+    85%
+    {
+        letter-spacing: 5.5px;
+
+    }
+}
+.box h5
+{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+    position: relative;
+
+
+}
+
+
+.box p
+{
+    text-align: justify;
+
+
+}
+ul
+{
+    margin: 0;
+    padding: 0;
+    letter-spacing: 6px;
+
+}
+.box li
+{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+
+}
+.box li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 60px;
+    transition: all ease-in-out 250ms;
+
+}
+.box li a:hover
+{
+    color: #b9b9b9;
+
+}
+
+
+/* cia yra menu baro kodas*/
+
+.cssMenu{
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0, 0.6);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    font-family: "Agency FB";
+
+
+}
+ .float{
+    float:right;
+
+}
+
+.float .css {
+    display: block;
+    color:#FFFFF0 ;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+
+}
+
+.float .css:hover {
+    background-color: #778899;
+}
+
+/* timer grazinimas     */
+.timer
+{
+    display: block;
+    color:navajowhite ;
+    text-align: center;
+    padding: 12px 5px;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: rgba(0,0,0, 0.6);
+    border-radius: 10%;
+    width: 60px;
+}
+
+
+
+
+

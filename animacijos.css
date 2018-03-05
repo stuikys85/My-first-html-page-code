@@ -1,0 +1,10 @@
+@keyframes spalvospasikeitimas {
+    from {background-color: red  ;}
+    to {background-color: blue;}
+}
+/* Elementas kuriam taikysime animacija
+textarea {
+    background-color: red;
+    animation-name: spalvospasikeitimas;
+    animation-duration: 2s;
+    animation-iteration-count: infinite; }*/

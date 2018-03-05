@@ -1,0 +1,83 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
+    <link rel="stylesheet" href="stiliusCSSresume.css">
+    <title>MY WEBSITE</title>
+
+</head>
+<body >
+<ol class="cssMenu">
+
+    <li class="float"><a class="css" href="KontaktaiMano.html">GRATITUDE</a></li>
+    <li class="float"><a class="css" href="Skills.html">SKILLS</a></li>
+    <li class="float"><a class="css" href="DarbaiMano.html">MY GAME</a></li>
+    <li class="float"><a class="css" href="index.html.html">HOME</a> </li>
+
+</ol>
+
+
+<div class="box">
+    <img src="img/as.jpg"  alt="" class="box-img">
+
+
+    <div class="container">
+
+        <h1 class="text1">Mindaugas Stuikys</h1>
+        <h5 class="text2">C# programmer - web developer</h5>
+
+    </div>
+
+
+    <p> Sveiki, tai mano pirmasis puslapis, ir labai trumpa autobiogrfija apie mane:
+        Pagrinde mano specialybė yra susijusi su statybų sektoriumi, ilga laika ten ir dirbau,
+        bet kuo toliau tuo labiau linkau i programavimo kryptį, tai tiesiog buvo laiko klausimas,
+        kada pradesiu mokintis programavimo, nes reikejo perlipt per save ir išlipt iš konforto zonos.
+    <ul>
+        <li><a href="http://facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a> </li>
+        <li><a href=" http://youtube.com"><i class="fa fa-youtube-square"></i></a></li>
+        <li><a href="http://twitter.com"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+</ul>
+    </p>
+</div>
+
+
+<p id="countdown" class="timer"></p>
+<script>
+    var seconds =60;
+    function secondPassed()
+    {
+        var minutes = Math.round((seconds +30)/ 60);
+        var remainingSeconds = seconds % 60;
+        if(remainingSeconds < 10)
+        {
+            remainingSeconds = "0" + remainingSeconds;
+        }
+        document.getElementById('countdown').innerHTML = minutes + ":" + remainingSeconds;
+
+        if(seconds == 0)
+        {
+            clearInterval(countdownTimer);
+            document.getElementById('countdown').innerHTML = "LAIKAS BAIGESI!!!";
+        }
+        else
+            {
+                seconds -- ;
+            }
+    }
+    var countdownTimer = setInterval('secondPassed()',1000 );
+
+
+
+</script>
+
+
+<hr/>
+Visos teisė saugomos &copy; 2018
+<script src="JS/bootstrap-3.3.7-dist/js/bootstrap.js"></script>
+
+
+</body>
+</html>
